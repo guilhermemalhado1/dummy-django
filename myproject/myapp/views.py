@@ -1,5 +1,5 @@
 from django.http import HttpResponse
 
 def home_view(request,*args, **kwargs):
-    return HttpResponse("<h1>Esta e a minha apresentacao de dia 17/12"
+    return HttpResponse("<h1>Hello, today is my final master degree thesys presentation."
                         "<img src=\"https://upload.wikimedia.org/wikipedia/commons/c/c8/Log%C3%B3tipo_do_Politecnico_de_Setubal.png\" alt=\"IPS\" width=\"500\" height=\"600\"></h1>")
